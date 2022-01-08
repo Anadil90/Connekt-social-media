@@ -1,0 +1,72 @@
+.share {
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px #484c4c;
+}
+
+.shareTop {
+    display: flex;
+    align-items: center;
+}
+
+.shareBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptions {
+    display: flex;
+}
+
+.shareOption {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.postButton {
+    background-color: #0dae04;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    padding: 4px 7px
+}
+
+.tagPost {
+    color: #87cefa;
+}
+
+.emotions {
+    color: orange;
+}
+
+.shareLine{
+    margin: 10px 0;
+}
+.shareProfilePicture {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.shareThoughts{
+    border: none;
+    outline: none;
+    width: 100%;
+    
+}
+
+.shareThoughts::placeholder {
+    font-size: 16px;
+}
+
+.shareWrapper {
+    padding: 10px;
+}
